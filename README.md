@@ -1,40 +1,40 @@
 # 🌆 Urbanphonic Sound Classifier
 
-Este proyecto aplica aprendizaje automático para clasificar sonidos urbanos siguiendo la taxonomía de **Urbanphony**, que agrupa los sonidos ambientales en categorías representativas del paisaje sonoro de la ciudad.
+This project applies machine learning to classify urban sounds according to the **Urbanphony** taxonomy, which groups environmental sounds into representative categories of the city soundscape.
 
 ---
 
-## 🧠 Proyecto
+## 🧠 Project
 
-Se entrena un modelo de clasificación para reconocer grabaciones de audio pertenecientes a clases como transporte motorizado, voz humana, maquinaria, eventos sociales y sonidos de animales, entre otros. El modelo se construye sobre arquitecturas eficientes como EfficientNet y utiliza técnicas modernas de preprocesamiento de audio e imágenes.
-
----
-
-## 🗂️ Taxonomía de Clases
-
-Los sonidos se organizan según la taxonomía **Urbanphony**, estructurada en cinco clases principales:
-
-| Código | Nombre de la Clase         | Descripción                                          | Ejemplo             |
-|--------|----------------------------|------------------------------------------------------|----------------------|
-| **TM** | Motorised Transport        | Transporte terrestre, aéreo o acuático               | Autobús              |
-| **VM** | Voices or Music            | Voz humana, risa, canto o música                     | Personas hablando    |
-| **EM** | Electro-mechanical         | Sonidos eléctricos, mecánicos o de construcción      | Ventilador           |
-| **S**  | Social/Communal            | Sonidos relevantes para una comunidad                | Campanas             |
-| **BI** | Biophony                   | Sonidos de animales silvestres o domesticados        | Aves cantando        |
+A classification model is trained to recognize audio recordings belonging to classes such as motorized transport, human voice, machinery, social events, and animal sounds, among others. The model is built on efficient architectures like EfficientNet and leverages modern audio and image preprocessing techniques.
 
 ---
 
-## ⚙️ Requisitos
+## 🗂️ Class Taxonomy
 
-Este proyecto fue desarrollado y probado en el siguiente entorno:
+The sounds are organized according to the **Urbanphony** taxonomy, structured into five main classes:
 
-- **Sistema operativo:** Windows 10 / 11
-- **Python:** 3.9.7
-- **GPU:** NVIDIA GeForce RTX 3050 Laptop GPU
-- **Librerías principales:**
+| Code  | Class Name              | Description                                           | Example              |
+|-------|--------------------------|-------------------------------------------------------|----------------------|
+| **TM** | Motorised Transport      | Land, air, or water transport sounds                  | Bus                  |
+| **VM** | Voices or Music          | Human voice, laughter, singing, or music             | People talking       |
+| **EM** | Electro-mechanical       | Electrical, mechanical, or construction sounds        | Fan                  |
+| **S**  | Social/Communal          | Sounds relevant to a community                        | Bells                |
+| **BI** | Biophony                 | Sounds from wild or domesticated animals              | Birds singing        |
+
+---
+
+## ⚙️ Requirements
+
+This project was developed and tested in the following environment:
+
+- **Operating System:** Windows 10 / 11  
+- **Python Version:** 3.9.7  
+- **GPU:** NVIDIA GeForce RTX 3050 Laptop GPU  
+- **Main Libraries:**
 
 ```bash
-Librería           Versión
+Library            Version
 ------------------ ---------
 numpy              1.23.5
 pandas             2.2.3
