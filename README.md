@@ -1,4 +1,4 @@
-# 🌆 Urbanphonic Sound Classifier
+# 🌆 UrbanSonic-CNNs
 
 This project applies machine learning to classify urban sounds according to the **Urbanphony** taxonomy, which groups environmental sounds into representative categories of the city soundscape.
 
