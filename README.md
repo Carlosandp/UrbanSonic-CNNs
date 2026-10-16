@@ -48,4 +48,4 @@ soundfile          0.12.1
 joblib             1.4.2
 IPython            8.12.3
 ```
-**This repository is part of Urbanphony efforts. A soundscape project boosted from the heart of Mantra, Science, Art and Technoogy**
+**This repository is part of Urbanphony efforts. A soundscape project boosted from the heart of Mantra, Science, Art and Technoogy.**
