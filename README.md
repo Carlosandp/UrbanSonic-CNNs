@@ -1,26 +1,26 @@
-# 🌆 UrbanSonic-CNNs
+# 🤖🎧 UrbanSonic-CNNs
 
-This project applies machine learning to classify urban sounds according to the **Urbanphony** taxonomy, which groups environmental sounds into representative categories of the city soundscape.
+This project applies deep learning techniques to classify urban soundscape components, encompassing both anthropophony (e.g., traffic, human voices, and socio-communal sounds) and natural sounds (e.g., biophony). Specifically, a convolutional neural network (CNN) is used to classify urban sounds based on their representation as Mel spectrograms generated from audio recordings collected in urban areas.
 
 ---
 
 ## 🧠 Project
 
-A classification model is trained to recognize audio recordings belonging to classes such as motorized transport, human voice, machinery, social events, and animal sounds, among others. The model is built on efficient architectures like EfficientNet and leverages modern audio and image preprocessing techniques.
+The CNN is trained to recognize diverse urban soundscape components across different datasets, allowing its classification performance to be evaluated. The model is based on the pre-trained EfficientNet CNN architecture and leverages modern audio and image preprocessing techniques.
 
 ---
 
 ## 🗂️ Class Taxonomy
 
-The sounds are organized according to the **Urbanphony** taxonomy, structured into five main classes:
+The sounds are organized according to the urban soundscape taxonomy, structured into five main classes:
 
 | Code  | Class Name              | Description                                           | Example              |
 |-------|--------------------------|-------------------------------------------------------|----------------------|
-| **TM** | Motorised Transport      | Land, air, or water transport sounds                  | Bus                  |
+| **MT** | Motorised Transport      | Land, air, or water transport sounds                  | Bus                  |
 | **VM** | Voices or Music          | Human voice, laughter, singing, or music             | People talking       |
 | **EM** | Electro-mechanical       | Electrical, mechanical, or construction sounds        | Fan                  |
-| **S**  | Social/Communal          | Sounds relevant to a community                        | Bells                |
-| **BI** | Biophony                 | Sounds from wild or domesticated animals              | Birds singing        |
+| **S**  | Social-communal          | Sounds relevant to a community                        | Bells                |
+| **BI** | Biophony                 | Sounds from wild or domesticated animals              | Birds songs       |
 
 ---
 
@@ -47,3 +47,5 @@ librosa            0.10.1
 soundfile          0.12.1
 joblib             1.4.2
 IPython            8.12.3
+```
+**This repository is part of Urbanphony efforts. A soundscape project boosted from the heart of Mantra, Science, Art and Technoogy**
